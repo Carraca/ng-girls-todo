@@ -1,0 +1,2 @@
+<input #inputTitle [value]="title" class="todo-input" (change)="changeTitle($event.target.value)">
+<button class="btn" (click)="changeTitle(inputTitle.value)">Save</button>
